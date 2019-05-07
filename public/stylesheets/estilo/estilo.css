@@ -1,0 +1,26 @@
+ body { 
+      font-family: "Gill Sans", sans-serif;
+      font-size: 12pt;
+      background-image: url("AB5005FZ.jpg");
+      margin: 3em; 
+      color: white;
+  }
+  
+ .ti1 ul {
+  list-style-type: none;
+  text-align: left;
+  text-align: center;
+    background-image: url("blanco.jpg");
+}
+
+.ti1 li {
+  font-family: URW Gothic L;
+  font-size: 40px;
+
+  color: black;
+  display: inline-block;
+  border-color: black;
+  padding-bottom:  20px;
+
+}
+

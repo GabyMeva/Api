@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>API 1.0</title>
+  </head>
+  <body onload = "cliente.iniciar();">
+    <h1>API 1.0</h1>
+      <form id="formulario">
+        <fieldset>
+          <legend>Metodos</legend>
+            <label for="archivo">Seleccione una operacion:</label>
+            <select id="operaciones">
+              <option value="GET">GET</option>
+              <option value="POST">POST</option>
+              <option value="PUT">PUT</option>
+              <option value="DELETE">DELETE</option>
+            </select>
+            <select id="formato">
+              <option value="application/xml">application/xml</option>
+              <option value="application/json">application/json</option>
+            </select>
+              <input type="text" value="" id="solicitud"/>
+              <input type="text" value="" id="cuerpo"/>
+            <input type="button" value="Enviar" id="enviar"/>
+        </fieldset>
+      </form>
+    <h3>Resultado:</h3>
+    <p id="mensaje"></p>
+    <textarea id="contenido"></textarea>
+  <script src="/App.js"></script>
+  </body>
+</html>
